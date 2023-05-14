@@ -1,0 +1,99 @@
+.product__container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    background: #FFFFFF;
+    -webkit-box-shadow: 1px 1px 20px 15px rgba(0,0,0,0.2);
+    box-shadow: 1px 1px 20px 15px rgba(0,0,0,0.2);
+    border-radius: 30px;
+
+    padding: 25px;
+    width: 300px;
+
+    font-weight: bold;
+    gap: 3vh;
+}
+
+.product__info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+
+    width: 100%;
+    text-align: center;
+}
+
+.product__buy {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+
+    width: 100%;
+    text-align: center;
+}
+
+.product__rating {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    gap: 1vw;
+
+    color: #838383;
+}
+
+.product__link {
+    text-decoration: none;
+    color: black;
+}
+
+.product__link:hover, .product__link:focus {
+    color: #838383;
+    cursor: pointer;
+}
+
+.product__image {
+    height: 220px;
+    width: 200px;
+}
+
+.product__price {
+    color: orange;
+}
+
+.product__price:after {
+    content: '\20BD';
+}
+
+.product__amount {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.product__amount-change {
+    display: flex;
+    align-items: center;
+    gap: 1vw;
+}
+
+.product__amount-change > button {
+    border-radius: 50%;
+    border-color: transparent;
+    width: 30px;
+    height: 30px;
+
+    background: orange;
+    color: white;
+    font-size: 22px;
+
+}
+
+.product__finalPrice:after {
+    content: "\20BD"
+}

@@ -1,0 +1,33 @@
+.products__title {
+    color: #838383;
+    font-family: "Arial", serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    margin-bottom: 5vh;
+}
+
+.products__container {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10vw;
+
+    width: 100%;
+    margin-bottom: 10vh;
+}
+
+.order__button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70px;
+    background: black;
+
+    cursor: x;
+    color: white;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}

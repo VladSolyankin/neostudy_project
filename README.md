@@ -11,7 +11,7 @@
 Для передачи информации о выбранных в корзину позиций можно использовать SessionStorage.
 
 # Установка:
-git clone https://github.com/VladSolyankin/neostudy_project folder_name
+git clone https://github.com/VladSolyankin/neostudy_project folder_name  
 npm install
 
 # Реализовано:
